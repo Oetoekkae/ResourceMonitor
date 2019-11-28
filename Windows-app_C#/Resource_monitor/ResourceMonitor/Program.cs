@@ -10,7 +10,8 @@ using System.Windows.Forms;
 using System.IO.Ports;
 using OpenHardwareMonitor.Hardware;
 
-namespace Arduino_Controll {
+namespace Resource_Monitor
+{
     public partial class Form1 : Form {
         static string data;
         Computer c = new Computer() {
@@ -19,10 +20,11 @@ namespace Arduino_Controll {
         };
 
         float value1, value2;
+        
 
         private SerialPort port = new SerialPort();
         public Form1() {
-            InitializeComponent();
+            c.Open();
             Init();
         }
 
@@ -47,7 +49,7 @@ namespace Arduino_Controll {
         }
 
 
-        private void button3_Click(object sender, EventArgs e) {
+        private void button2_Click(object sender, EventArgs e) {
             try {
                 port.Write("DIS*");
                 port.Close();
@@ -61,7 +63,7 @@ namespace Arduino_Controll {
         }
 
 
-        private void button5_Click(object sender, EventArgs e) {
+        private void button1_Click(object sender, EventArgs e) {
             try {
                 if (!port.IsOpen) {
                     port.PortName = comboBox1.Text;

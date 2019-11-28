@@ -1,0 +1,4 @@
+H:\Projects\github\ResourceMonitor\Windows-app_C#\Resource_monitor\ResourceMonitor\obj\Debug\ResourceMonitor.csprojAssemblyReference.cache
+H:\Projects\github\ResourceMonitor\Windows-app_C#\Resource_monitor\ResourceMonitor\obj\Debug\Resource_Monitor.Form1.resources
+H:\Projects\github\ResourceMonitor\Windows-app_C#\Resource_monitor\ResourceMonitor\obj\Debug\Resource_Monitor.Properties.Resources.resources
+H:\Projects\github\ResourceMonitor\Windows-app_C#\Resource_monitor\ResourceMonitor\obj\Debug\ResourceMonitor.csproj.GenerateResource.cache
